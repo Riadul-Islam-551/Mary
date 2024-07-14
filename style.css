@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+nav {
+  width: 100%;
+  height: 130px;
+  font-family: sans-serif;
+  background-color: rgb(252, 236, 225);
+}
+nav .nav_logo {
+  display: inline-block;
+  margin: 40px 0px 0px 110px;
+}
+nav .nav_logo h1 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+nav .nav_logo h1 span {
+  color: rgb(255, 94, 0);
+}
+nav .nav_links {
+  float: right;
+}
+nav .nav_links ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 57px 200px 0px 0px;
+}
+nav .nav_links ul li {
+  list-style-type: none;
+  margin: 0px 15px;
+}
+nav .nav_links ul li a {
+  text-decoration: none;
+  color: rgb(95, 95, 95);
+  font-weight: 600;
+  padding: 15px 26px;
+  border-radius: 7px;
+}
+nav .nav_links ul li .hireme{
+    background-color: rgb(255, 94, 0);
+    color: white;
+}
+nav .nav_links ul li a:hover{
+    background-color: rgb(255, 94, 0);
+    color: white;
+    transition-duration: .3s;
+}
