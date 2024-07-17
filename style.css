@@ -60,7 +60,7 @@ nav .nav_links ul li a:hover {
 }
 .hero .hero_left{
   border: 1px solid red;
-  width: 60%;
+  width: 57%;
   height: 100%;
 
   padding: 200px 0px 200px 300px;
@@ -92,4 +92,15 @@ font-weight: 400;
 }
 .hero .hero_left .h_button button .b_icon{
   margin: 0px 10px 0px 0px;
+}
+.hero .hero_right{
+  width: 43%;
+  height: 100%;
+  background-image: url(./images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.hero .hero_right img{
+  width: 600px;
+  margin: 42px 0px 0px 180px;
 }
