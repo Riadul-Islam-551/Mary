@@ -50,36 +50,36 @@ nav .nav_links ul li a:hover {
   transition-duration: 0.3s;
 }
 /* ..........hero.......... */
-.hero{
+.hero {
   background-color: rgb(252, 242, 235);
   width: 100%;
   height: 80vh;
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
 }
-.hero .hero_left{
+.hero .hero_left {
   width: 57%;
   height: 100%;
 
   padding: 200px 0px 200px 300px;
 }
-.hero .hero_left h4{
-font-size: 2.2rem;
-margin: 20px 0px;
-font-weight: 400;
+.hero .hero_left h4 {
+  font-size: 2.2rem;
+  margin: 20px 0px;
+  font-weight: 400;
 }
-.hero .hero_left h1{
+.hero .hero_left h1 {
   font-size: 3.5rem;
-  letter-spacing: .5rem;
+  letter-spacing: 0.5rem;
 }
-.hero .hero_left p{
+.hero .hero_left p {
   font-size: 1.2rem;
   color: rgb(73, 72, 72);
   margin: 30px 0px;
   line-height: 1.9rem;
   width: 800px;
 }
-.hero .hero_left .h_button button{
+.hero .hero_left .h_button button {
   padding: 15px 26px;
   border-radius: 5px;
   background-color: rgb(255, 94, 0);
@@ -87,18 +87,53 @@ font-weight: 400;
   border: none;
   margin-right: 22px;
 }
-.hero .hero_left .h_button button .b_icon{
+.hero .hero_left .h_button button .b_icon {
   margin: 0px 10px 0px 0px;
   font-size: 1rem;
 }
-.hero .hero_right{
+.hero .hero_right {
   width: 43%;
   height: 100%;
   background-image: url(./images/header_bg.png);
   background-repeat: no-repeat;
   background-position: bottom;
 }
-.hero .hero_right img{
+.hero .hero_right img {
   width: 600px;
   margin: 44px 0px 0px 180px;
 }
+/* ............about section......... */
+.about {
+  margin: 100px auto;
+  width: 1100px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 130px;
+  font-family: sans-serif;
+  border-radius: 10px;
+  background-color: rgb(252, 242, 235);
+}
+.about h1 {
+  margin: 30px;
+}
+.about p {
+  text-align: center;
+  line-height: 23px;
+  color: rgb(87, 86, 86);
+}
+.about .about_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 45px 0px;
+}
+.about .about_info .box {
+  margin: 0px 30px;
+}
+.about .about_info .box p {
+  margin-bottom: 5px;
+}
+
