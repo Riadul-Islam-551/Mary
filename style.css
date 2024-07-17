@@ -80,7 +80,6 @@ font-weight: 400;
   width: 800px;
 }
 .hero .hero_left .h_button button{
-  font-weight: 600;
   padding: 15px 26px;
   border-radius: 5px;
   background-color: rgb(255, 94, 0);
@@ -90,6 +89,7 @@ font-weight: 400;
 }
 .hero .hero_left .h_button button .b_icon{
   margin: 0px 10px 0px 0px;
+  font-size: 1rem;
 }
 .hero .hero_right{
   width: 43%;
