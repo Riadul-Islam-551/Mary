@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  text-decoration: none;
 }
 nav {
   width: 100%;
@@ -58,10 +59,9 @@ nav .nav_links ul li a:hover {
   font-family: Arial, Helvetica, sans-serif;
 }
 .hero .hero_left {
-  width: 57%;
+  width: 55%;
   height: 100%;
-
-  padding: 200px 0px 200px 300px;
+  padding: 150px 0px 0px 300px;
 }
 .hero .hero_left h4 {
   font-size: 2.2rem;
@@ -69,14 +69,15 @@ nav .nav_links ul li a:hover {
   font-weight: 400;
 }
 .hero .hero_left h1 {
-  font-size: 3.5rem;
+  font-size: 3.7rem;
   letter-spacing: 0.5rem;
+  margin: 0px 0px 60px 0px;
 }
 .hero .hero_left p {
   font-size: 1.2rem;
   color: rgb(73, 72, 72);
   margin: 30px 0px;
-  line-height: 1.9rem;
+  line-height: 1.7rem;
   width: 800px;
 }
 .hero .hero_left .h_button button {
@@ -86,10 +87,14 @@ nav .nav_links ul li a:hover {
   color: white;
   border: none;
   margin-right: 22px;
+  cursor: pointer;
 }
 .hero .hero_left .h_button button .b_icon {
   margin: 0px 10px 0px 0px;
   font-size: 1rem;
+}
+.hero .hero_left .h_button button a {
+  color: white;
 }
 .hero .hero_right {
   width: 43%;
@@ -105,16 +110,17 @@ nav .nav_links ul li a:hover {
 /* ............about section......... */
 .about {
   margin: 100px auto;
-  width: 1100px;
+  width: 80%;
   height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 100px 130px;
+  padding: 100px 0px;
   font-family: sans-serif;
   border-radius: 10px;
   background-color: rgb(252, 242, 235);
+  transition-duration: 0.3s;
 }
 .about h1 {
   margin: 30px;
@@ -123,6 +129,7 @@ nav .nav_links ul li a:hover {
   text-align: center;
   line-height: 23px;
   color: rgb(87, 86, 86);
+  width: 80%;
 }
 .about .about_info {
   display: flex;
@@ -137,3 +144,1652 @@ nav .nav_links ul li a:hover {
   margin-bottom: 5px;
 }
 
+/* .....expert in........ */
+.expertin {
+  margin: 100px auto;
+  width: 100%;
+  /* height: 60vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+.expertin h1 {
+  margin: 30px;
+}
+.expertin p {
+  text-align: center;
+  line-height: 23px;
+  color: rgb(87, 86, 86);
+  width: 80%;
+  margin: 20px;
+}
+.expertin .container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.expertin .container .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  width: 300px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px rgb(240, 239, 239);
+}
+.expertin .container .content:hover {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}
+.expertin .container .content img {
+  margin: 0px 0px 30px 0px;
+}
+.expertin .container .content h4 {
+  margin-bottom: 30px;
+}
+.expertin .container .content p {
+  width: 250px;
+  font-size: 0.9rem;
+}
+/* .......REsume........ */
+.resume {
+  margin: 100px auto;
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+.resume h1 {
+  margin: 30px;
+}
+.resume .container {
+  display: flex;
+  margin: 10px;
+}
+.resume .container h3 {
+  margin: 20px 0px;
+}
+.resume .container .content {
+  margin: 10px 30px;
+  padding: 20px 0px;
+  border-bottom: 1px solid rgb(180, 179, 179);
+}
+.resume .container .content h4 {
+  margin: 10px 0px;
+}
+.resume .container .content .degree {
+  color: rgb(87, 86, 86);
+  margin-bottom: 20px;
+}
+.resume .container .content p {
+  color: rgb(87, 86, 86);
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+}
+.resume button {
+  padding: 15px 26px;
+  border-radius: 5px;
+  background-color: rgb(255, 94, 0);
+  color: white;
+  border: none;
+  margin-right: 22px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+.resume button i {
+  margin: 0px 10px 0px 0px;
+  font-size: 1rem;
+}
+/* .........footer.......... */
+footer {
+  width: 100%;
+  height: 60vh;
+  background-color: rgb(252, 242, 235);
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  padding: 80px 0px 0px 0px;
+}
+footer .footer_left {
+  width: 30%;
+  margin-right: 50px;
+}
+footer h1 {
+  margin-bottom: 20px;
+}
+footer .footer_left p {
+  color: rgb(87, 86, 86);
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  margin: 0px 0px 20px 0px;
+}
+footer .footer_left .footer_icon{
+  margin-top: 40px;
+}
+footer .footer_left .footer_icon img {
+  margin: 0px 20px 0px 0px;
+}
+footer .footer_right {
+  width: 30%;
+  margin-left: 50px;
+}
+footer .footer_right input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin: 0px 0px 20px 0px;
+  border: none;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+footer .footer_right .message {
+  height: 100px;
+}
+footer .footer_right button {
+  padding: 15px 26px;
+  border-radius: 5px;
+  background-color: rgb(255, 94, 0);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 344px) and (max-width: 600px) {
+  /* ......navigation bar....... */
+  nav {
+    width: 100%;
+    height: 90px;
+    font-family: sans-serif;
+    background-color: rgb(252, 242, 235);
+  }
+  nav .nav_logo {
+    display: inline-block;
+    margin: 27px 0px 0px 10px;
+  }
+  nav .nav_logo h1 {
+    font-size: 1.3rem;
+    font-weight: 900;
+  }
+  nav .nav_logo h1 span {
+    color: rgb(255, 94, 0);
+  }
+  nav .nav_links {
+    float: right;
+  }
+  nav .nav_links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 36px 0px 0px 0px;
+  }
+  nav .nav_links ul li {
+    list-style-type: none;
+    margin: 0px 10px 0px 0px;
+  }
+  nav .nav_links ul li a {
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+    font-weight: 600;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+  }
+  nav .nav_links ul li .hireme {
+    background-color: rgb(255, 94, 0);
+    color: white;
+  }
+  nav .nav_links ul li a:hover {
+    background-color: rgb(255, 94, 0);
+    color: white;
+    transition-duration: 0.3s;
+  }
+  /* ..........hero.......... */
+  .hero {
+    background-color: rgb(252, 242, 235);
+    width: 100%;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .hero .hero_left {
+    width: 344px;
+    height: 50%;
+    padding: 44px 0px 0px 0px;
+    margin: 0 auto;
+  }
+  .hero .hero_left h4 {
+    font-size: 1.2rem;
+    margin: 10px;
+    font-weight: 400;
+  }
+  .hero .hero_left h1 {
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    margin: 0px 0px 20px 10px;
+  }
+  .hero .hero_left p {
+    font-size: 0.9rem;
+    color: rgb(73, 72, 72);
+    margin: 0px 10px;
+    line-height: 1.3rem;
+    width: 300px;
+    text-align: justify;
+  }
+  .hero .hero_left .h_button button {
+    padding: 7px 10px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    border: none;
+    margin: 15px 10px;
+    cursor: pointer;
+  }
+  .hero .hero_left .h_button button .b_icon {
+    margin: 0px 10px 0px 0px;
+    font-size: 0.9rem;
+  }
+  .hero .hero_right {
+    width: 100%;
+    height: 50%;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .hero .hero_right img {
+    width: 300px;
+    margin: 0px 30px 0px 0px;
+  }
+  /* ............about section......... */
+  .about {
+    margin: 100px auto;
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    background-color: rgb(252, 242, 235);
+    transition-duration: 0.3s;
+  }
+  .about h1 {
+    font-size: 1.5rem;
+    margin: 30px;
+  }
+  .about p {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    text-align: justify;
+    color: rgb(87, 86, 86);
+    width: 80%;
+  }
+  .about .about_info {
+    width: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .about .about_info .box {
+    margin: 10px 0px;
+    width: 125px;
+    padding-left: 15px;
+  }
+  .about .about_info .box p {
+    margin-bottom: 0px;
+    font-size: 0.8rem;
+  }
+  .about .about_info .box h4 {
+    font-size: 0.7rem;
+  }
+  /* .....expert in........ */
+  .expertin {
+    margin: 20px auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: sans-serif;
+  }
+  .expertin h1 {
+    font-size: 1.5rem;
+    margin: 30px;
+  }
+  .expertin p {
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 23px;
+    color: rgb(87, 86, 86);
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  .expertin .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .expertin .container .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(214, 213, 213);
+  }
+  .expertin .container .content:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+  }
+  .expertin .container .content img {
+    margin: 0px 0px 30px 0px;
+  }
+  .expertin .container .content h4 {
+    margin-bottom: 30px;
+  }
+  .expertin .container .content p {
+    width: 250px;
+    font-size: 0.8rem;
+  }
+  /* .......REsume........ */
+  .resume {
+    margin: 15px auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: sans-serif;
+  }
+  .resume h1 {
+    font-size: 1.2rem;
+    margin: 20px 0px;
+  }
+  .resume .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  .resume .container h3 {
+    font-size: 1rem;
+    margin: 20px 0px;
+  }
+  .resume .container .content {
+    margin: 0px 10px;
+    padding: 20px 0px;
+    border-bottom: 1px solid rgb(180, 179, 179);
+  }
+  .resume .container .content h4 {
+    margin: 5px 0px;
+    font-size: 0.9rem;
+  }
+  .resume .container .content .degree {
+    color: rgb(87, 86, 86);
+    margin-bottom: 20px;
+    font-size: 0.8rem;
+  }
+  .resume .container .content p {
+    color: rgb(87, 86, 86);
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+  }
+  .resume button {
+    font-size: 0.8rem;
+    padding: 7px 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    border: none;
+    margin-right: 22px;
+    cursor: pointer;
+    margin-top: 40px;
+  }
+  .resume button i {
+    margin: 0px 10px 0px 0px;
+    font-size: 0.9rem;
+  }
+  /* .........footer.......... */
+  footer {
+    width: 100%;
+    height:max-content;
+    background-color: rgb(252, 242, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    padding: 30px 0px 30px 0px;
+  }
+  footer .footer_left {
+    width: 90%;
+    margin: 0px 0px 40px 0px;
+  }
+  footer h1 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+  footer .footer_left p {
+    color: rgb(87, 86, 86);
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    margin: 0px 0px 10px 0px;
+  }
+  footer .footer_left .footer_icon {
+    text-align: center;
+  }
+  footer .footer_left .footer_icon img {
+    margin: 20px;
+  }
+  footer .footer_right {
+    width: 90%;
+    margin-left: 0px;
+  }
+  footer .footer_right input {
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin: 0px 0px 20px 0px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 10px;
+  }
+  footer .footer_right .message {
+    height: 100px;
+  }
+  footer .footer_right button {
+    padding: 7px 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  /* ......navigation bar....... */
+  nav {
+    width: 100%;
+    height: 90px;
+    font-family: sans-serif;
+    background-color: rgb(252, 242, 235);
+  }
+  nav .nav_logo {
+    display: inline-block;
+    margin: 27px 0px 0px 30px;
+  }
+  nav .nav_logo h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  nav .nav_logo h1 span {
+    color: rgb(255, 94, 0);
+  }
+  nav .nav_links {
+    float: right;
+  }
+  nav .nav_links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 36px 30px 0px 0px;
+  }
+  nav .nav_links ul li {
+    list-style-type: none;
+    margin: 0px 10px 0px 0px;
+  }
+  nav .nav_links ul li a {
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+    font-weight: 600;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+  }
+  nav .nav_links ul li .hireme {
+    background-color: rgb(255, 94, 0);
+    color: white;
+  }
+  nav .nav_links ul li a:hover {
+    background-color: rgb(255, 94, 0);
+    color: white;
+    transition-duration: 0.3s;
+  }
+  /* ..........hero.......... */
+  .hero {
+    background-color: rgb(252, 242, 235);
+    width: 100%;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .hero .hero_left {
+    width: 400px;
+    height: 40%;
+    padding: 44px 0px 0px 0px;
+    margin: 0 auto;
+  }
+  .hero .hero_left h4 {
+    font-size: 1.2rem;
+    margin: 10px;
+    font-weight: 400;
+  }
+  .hero .hero_left h1 {
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    margin: 0px 0px 20px 10px;
+  }
+  .hero .hero_left p {
+    font-size: 0.9rem;
+    color: rgb(73, 72, 72);
+    margin: 0px 0px 20px 10px;
+    line-height: 1.3rem;
+    width: 400px;
+    text-align: justify;
+  }
+  .hero .hero_left .h_button button {
+    padding: 7px 10px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    border: none;
+    margin: 15px 10px;
+    cursor: pointer;
+  }
+  .hero .hero_left .h_button button .b_icon {
+    margin: 0px 10px 0px 0px;
+    font-size: 0.9rem;
+  }
+  .hero .hero_right {
+    width: 100%;
+    height: 60%;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .hero .hero_right img {
+    width: 400px;
+    margin: 0px 30px 0px 0px;
+  }
+  /* ............about section......... */
+  .about {
+    margin: 100px auto;
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    background-color: rgb(252, 242, 235);
+    transition-duration: 0.3s;
+  }
+  .about h1 {
+    font-size: 1.5rem;
+    margin: 30px;
+  }
+  .about p {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    text-align: justify;
+    color: rgb(87, 86, 86);
+    width: 80%;
+  }
+  .about .about_info {
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .about .about_info .box {
+    margin: 10px 10px;
+    width: 150px;
+    padding-left: 20px;
+  }
+  .about .about_info .box p {
+    margin-bottom: 0px;
+    font-size: 0.9rem;
+  }
+  .about .about_info .box h4 {
+    font-size: 0.9rem;
+  }
+  /* .....expert in........ */
+  .expertin {
+    margin: 20px auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: sans-serif;
+  }
+  .expertin h1 {
+    font-size: 1.7rem;
+    margin: 30px;
+  }
+  .expertin p {
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 23px;
+    color: rgb(87, 86, 86);
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  .expertin .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .expertin .container .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(214, 213, 213);
+  }
+  .expertin .container .content:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+  }
+  .expertin .container .content img {
+    margin: 0px 0px 30px 0px;
+  }
+  .expertin .container .content h4 {
+    margin-bottom: 30px;
+  }
+  .expertin .container .content p {
+    width: 250px;
+    font-size: 0.9rem;
+  }
+  /* .......REsume........ */
+  .resume {
+    margin: 30px auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: sans-serif;
+  }
+  .resume h1 {
+    font-size: 1.2rem;
+    margin: 20px 0px;
+  }
+  .resume .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  .resume .container h3 {
+    margin: 20px 0px;
+  }
+  .resume .container .content {
+    margin: 0px 10px;
+    padding: 20px 0px;
+    border-bottom: 1px solid rgb(180, 179, 179);
+  }
+  .resume .container .content h4 {
+    margin: 5px 0px;
+  }
+  .resume .container .content .degree {
+    color: rgb(87, 86, 86);
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+  }
+  .resume .container .content p {
+    color: rgb(87, 86, 86);
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+  }
+  .resume button {
+    font-size: 0.8rem;
+    padding: 7px 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    border: none;
+    margin-right: 22px;
+    cursor: pointer;
+    margin-top: 40px;
+  }
+  .resume button i {
+    margin: 0px 10px 0px 0px;
+    font-size: 0.9rem;
+  }
+  /* .........footer.......... */
+  footer {
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(252, 242, 235);
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    padding: 80px 0px 0px 0px;
+  }
+  footer .footer_left {
+    width: 40%;
+    margin-right: 30px;
+  }
+  footer h1 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+  footer .footer_left p {
+    color: rgb(87, 86, 86);
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    margin: 0px 0px 20px 0px;
+  }
+  footer .footer_left .footer_icon img {
+    margin: 0px 20px 0px 0px;
+  }
+  footer .footer_right {
+    width: 40%;
+    margin-left: 30px;
+  }
+  footer .footer_right input {
+    display: block;
+    width: 100%;
+    height: 35px;
+    margin: 0px 0px 13px 0px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+  }
+  footer .footer_right .message {
+    height: 100px;
+  }
+  footer .footer_right button {
+    padding: 10px 17px;
+    border-radius: 5px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  /* ......navigation bar....... */
+  nav {
+    width: 100%;
+    height: 90px;
+    font-family: sans-serif;
+    background-color: rgb(252, 242, 235);
+  }
+  nav .nav_logo {
+    display: inline-block;
+    margin: 27px 0px 0px 70px;
+  }
+  nav .nav_logo h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  nav .nav_logo h1 span {
+    color: rgb(255, 94, 0);
+  }
+  nav .nav_links {
+    float: right;
+  }
+  nav .nav_links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 36px 60px 0px 0px;
+  }
+  nav .nav_links ul li {
+    list-style-type: none;
+    margin: 0px 17px 0px 0px;
+  }
+  nav .nav_links ul li a {
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+    font-weight: 600;
+    padding: 7px 12px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+  }
+  nav .nav_links ul li .hireme {
+    background-color: rgb(255, 94, 0);
+    color: white;
+  }
+  nav .nav_links ul li a:hover {
+    background-color: rgb(255, 94, 0);
+    color: white;
+    transition-duration: 0.3s;
+  }
+  /* ..........hero.......... */
+  .hero {
+    background-color: rgb(252, 242, 235);
+    width: 100%;
+    height:fit-content;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .hero .hero_left {
+    width: 45%;
+    height: 100%;
+    padding: 90px 0px 0px 40px;
+  }
+  .hero .hero_left h4 {
+    font-size: 1.7rem;
+    margin: 7px 0px;
+    font-weight: 400;
+  }
+  .hero .hero_left h1 {
+    font-size: 2.7rem;
+    letter-spacing: 0.3rem;
+    margin: 0px 0px 40px 0px;
+  }
+  .hero .hero_left p {
+    font-size: 1rem;
+    color: rgb(73, 72, 72);
+    margin: 20px 0px;
+    line-height: 1.4rem;
+    width: 400px;
+  }
+  .hero .hero_left .h_button button {
+    padding: 12px 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    border: none;
+    margin-right: 22px;
+    cursor: pointer;
+  }
+  .hero .hero_left .h_button button .b_icon {
+    margin: 0px 10px 0px 0px;
+    font-size: 1rem;
+  }
+  .hero .hero_left .h_button button a {
+    color: white;
+  }
+  .hero .hero_right {
+    width: 55%;
+    height: 100%;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+  }
+  .hero .hero_right img {
+    width: 400px;
+    margin: 30px 0px 0px 30px;
+  }
+  /* ............about section......... */
+  .about {
+    margin: 100px auto;
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    background-color: rgb(252, 242, 235);
+    transition-duration: 0.3s;
+  }
+  .about h1 {
+    font-size: 1.5rem;
+    margin: 30px;
+  }
+  .about p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    text-align: justify;
+    color: rgb(87, 86, 86);
+    width: 80%;
+  }
+  .about .about_info {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .about .about_info .box {
+    margin: 10px 50px;
+    width: 150px;
+    padding-left: 20px;
+  }
+  .about .about_info .box p {
+    margin-bottom: 0px;
+    font-size: 0.9rem;
+  }
+  .about .about_info .box h4 {
+    font-size: 0.9rem;
+  }
+  /* .....expert in........ */
+  .expertin {
+    margin: 20px auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: sans-serif;
+  }
+  /* .......REsume........ */
+  .resume {
+    margin: 30px auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: sans-serif;
+  }
+  .resume h1 {
+    font-size: 1.2rem;
+    margin: 20px 0px;
+  }
+  .resume .container {
+    display: flex;
+    margin: 10px 20px;
+  }
+  .resume .container h3 {
+    margin: 20px 20px;
+  }
+  .resume .container .content {
+    margin: 0px 20px;
+    padding: 20px 0px 20px 0px;
+    border-bottom: 1px solid rgb(180, 179, 179);
+  }
+  .resume .container .content h4 {
+    margin: 5px 0px;
+  }
+  .resume .container .content .degree {
+    color: rgb(87, 86, 86);
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+  }
+  .resume .container .content p {
+    color: rgb(87, 86, 86);
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+  }
+  .resume button {
+    font-size: 0.8rem;
+    padding: 7px 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    border: none;
+    margin-right: 22px;
+    cursor: pointer;
+    margin-top: 40px;
+  }
+  .resume button i {
+    margin: 0px 10px 0px 0px;
+    font-size: 0.9rem;
+  }
+  /* .........footer.......... */
+  footer {
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(252, 242, 235);
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    padding: 80px 0px 0px 0px;
+  }
+  footer .footer_left {
+    width: 40%;
+    margin-right: 30px;
+  }
+  footer h1 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+  }
+  footer .footer_left p {
+    color: rgb(87, 86, 86);
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    margin: 0px 0px 20px 0px;
+  }
+  footer .footer_left .footer_icon {
+    text-align: center;
+    margin-right: 30px;
+  }
+  footer .footer_left .footer_icon img {
+    margin: 0px 20px 0px 0px;
+  }
+  footer .footer_right {
+    width: 40%;
+    margin-left: 30px;
+  }
+  footer .footer_right input {
+    display: block;
+    width: 100%;
+    height: 35px;
+    margin: 0px 0px 13px 0px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+  }
+  footer .footer_right .message {
+    height: 100px;
+  }
+  footer .footer_right button {
+    padding: 10px 17px;
+    border-radius: 5px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1100px) {
+  /* ......navigation bar....... */
+  nav {
+    width: 100%;
+    height: 100px;
+    font-family: sans-serif;
+    background-color: rgb(252, 242, 235);
+  }
+  nav .nav_logo {
+    display: inline-block;
+    margin: 27px 0px 0px 70px;
+  }
+  nav .nav_logo h1 {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  nav .nav_logo h1 span {
+    color: rgb(255, 94, 0);
+  }
+  nav .nav_links {
+    float: right;
+  }
+  nav .nav_links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 40px 0px 0px;
+  }
+  nav .nav_links ul li {
+    list-style-type: none;
+    margin: 0px 17px 0px 0px;
+  }
+  nav .nav_links ul li a {
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+    font-weight: 600;
+    padding: 10px 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  /* ..........hero.......... */
+  .hero {
+    background-color: rgb(252, 242, 235);
+    width: 100%;
+    height:min-content;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .hero .hero_left {
+    width: 45%;
+    height: 100%;
+    padding: 130px 0px 0px 70px;
+  }
+  .hero .hero_left h4 {
+    font-size: 1.7rem;
+    margin: 7px 0px;
+    font-weight: 400;
+  }
+  .hero .hero_left h1 {
+    font-size: 2.9rem;
+    letter-spacing: 0.3rem;
+    margin: 0px 0px 40px 0px;
+  }
+  .hero .hero_left p {
+    font-size: 1rem;
+    color: rgb(73, 72, 72);
+    margin: 20px 0px;
+    line-height: 1.4rem;
+    width: 500px;
+  }
+  .hero .hero_left .h_button button {
+    padding: 12px 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    border: none;
+    margin-right: 22px;
+    cursor: pointer;
+  }
+  .hero .hero_left .h_button button .b_icon {
+    margin: 0px 10px 0px 0px;
+    font-size: 1rem;
+  }
+  .hero .hero_left .h_button button a {
+    color: white;
+  }
+  .hero .hero_right {
+    width: 55%;
+    height: 100%;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+  }
+  .hero .hero_right img {
+    width: 500px;
+    margin: 67px 0px 0px 30px;
+  }
+  /* ............about section......... */
+  .about {
+    margin: 100px auto;
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    background-color: rgb(252, 242, 235);
+    transition-duration: 0.3s;
+  }
+  .about h1 {
+    font-size: 1.9rem;
+    margin: 30px;
+  }
+  .about p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+    color: rgb(87, 86, 86);
+    width: 80%;
+  }
+  .about .about_info {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .about .about_info .box {
+    margin: 20px 30px;
+    width: 170px;
+    padding-left: 20px;
+  }
+  .about .about_info .box p {
+    margin-bottom: 0px;
+    font-size: .9rem;
+  }
+  .about .about_info .box h4 {
+    font-size: 1rem;
+  }
+  
+  /* .......REsume........ */
+  .resume {
+    margin: 30px auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: sans-serif;
+  }
+  .resume h1 {
+    font-size: 1.9rem;
+    margin: 20px 0px;
+  }
+  .resume .container {
+    display: flex;
+    margin: 10px 20px;
+  }
+  .resume .container h3 {
+    font-size: 1.4rem;
+    margin: 20px 20px;
+  }
+  .resume .container .content {
+    margin: 20px 20px;
+    padding: 20px 0px 20px 0px;
+    border-bottom: 1px solid rgb(180, 179, 179);
+  }
+  .resume .container .content h4 {
+    font-size: 1.2rem;
+    margin: 5px 0px;
+  }
+  .resume .container .content .degree {
+    color: rgb(87, 86, 86);
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+  }
+  .resume .container .content p {
+    color: rgb(87, 86, 86);
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+  }
+  .resume button {
+    font-size: 0.8rem;
+    padding: 13px 15px;
+    border-radius: 5px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    border: none;
+    margin-right: 22px;
+    cursor: pointer;
+    margin-top: 40px;
+  }
+  .resume button i {
+    margin: 0px 10px 0px 0px;
+    font-size: 1rem;
+  }
+
+  /* .........footer.......... */
+  footer {
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(252, 242, 235);
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    padding: 80px 0px 0px 0px;
+  }
+  footer .footer_left {
+    width: 40%;
+    margin-right: 30px;
+  }
+  footer h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  footer .footer_left p {
+    color: rgb(87, 86, 86);
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    margin: 0px 0px 20px 0px;
+  }
+  footer .footer_left .footer_icon {
+    margin: 50px 0px 0px 0px;
+  }
+  footer .footer_left .footer_icon img {
+    margin: 0px 20px 0px 0px;
+  }
+  footer .footer_right {
+    width: 40%;
+    margin-left: 30px;
+  }
+  footer .footer_right input {
+    display: block;
+    width: 100%;
+    height: 35px;
+    margin: 0px 0px 13px 0px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+  }
+  footer .footer_right .message {
+    height: 100px;
+  }
+  footer .footer_right button {
+    padding: 10px 17px;
+    border-radius: 5px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width:1100px) and (max-width:1300px) {
+   /* ......navigation bar....... */
+   nav {
+    width: 100%;
+    height: 110px;
+    font-family: sans-serif;
+    background-color: rgb(252, 242, 235);
+  }
+  nav .nav_links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 53px 40px 0px 0px;
+  }
+  nav .nav_links ul li {
+    list-style-type: none;
+    margin: 0px 25px 0px 0px;
+  }
+  nav .nav_links ul li a {
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  /* ..........hero.......... */
+  .hero {
+    background-color: rgb(252, 242, 235);
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .hero .hero_left {
+    width: 50%;
+    height: 100%;
+    padding: 130px 0px 0px 110px;
+  }
+  .hero .hero_left h4 {
+    font-size: 1.7rem;
+    margin: 7px 0px;
+    font-weight: 400;
+  }
+  .hero .hero_left h1 {
+    font-size: 2.9rem;
+    letter-spacing: 0.3rem;
+    margin: 0px 0px 40px 0px;
+  }
+  .hero .hero_left p {
+    font-size: 1rem;
+    color: rgb(73, 72, 72);
+    margin: 20px 0px 50px 0px;
+    line-height: 1.4rem;
+    width: 500px;
+  }
+  .hero .hero_left .h_button button {
+    padding: 12px 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    border: none;
+    margin-right: 22px;
+    cursor: pointer;
+  }
+  .hero .hero_left .h_button button .b_icon {
+    margin: 0px 10px 0px 0px;
+    font-size: 1rem;
+  }
+  .hero .hero_left .h_button button a {
+    color: white;
+  }
+  .hero .hero_right {
+    width: 50%;
+    height: 100%;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+  }
+  .hero .hero_right img {
+    width: 510px;
+    margin: 96px 0px 0px 30px;
+  }
+}
+@media screen and (min-width:1300px) and (max-width:1500px) {
+   /* ......navigation bar....... */
+   nav {
+    width: 100%;
+    height: 110px;
+    font-family: sans-serif;
+    background-color: rgb(252, 242, 235);
+  }
+  nav .nav_links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 53px 40px 0px 0px;
+  }
+  nav .nav_links ul li {
+    list-style-type: none;
+    margin: 0px 25px 0px 0px;
+  }
+  nav .nav_links ul li a {
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  /* ..........hero.......... */
+  .hero {
+    background-color: rgb(252, 242, 235);
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .hero .hero_left {
+    width: 50%;
+    height: 100%;
+    padding: 130px 0px 0px 200px;
+  }
+  .hero .hero_left h4 {
+    font-size: 1.9rem;
+    margin: 7px 0px;
+    font-weight: 400;
+  }
+  .hero .hero_left h1 {
+    font-size: 3.4rem;
+    letter-spacing: 0.3rem;
+    margin: 10px 0px 45px 0px;
+  }
+  .hero .hero_left p {
+    font-size: 1rem;
+    color: rgb(73, 72, 72);
+    margin: 20px 0px 50px 0px;
+    line-height: 1.4rem;
+    width: 500px;
+  }
+  .hero .hero_left .h_button button {
+    padding: 12px 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    border: none;
+    margin-right: 22px;
+    cursor: pointer;
+  }
+  .hero .hero_left .h_button button .b_icon {
+    margin: 0px 10px 0px 0px;
+    font-size: 1rem;
+  }
+  .hero .hero_left .h_button button a {
+    color: white;
+  }
+  .hero .hero_right {
+    width: 50%;
+    height: 100%;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+  }
+  .hero .hero_right img {
+    width: 530px;
+    margin: 73px 0px 0px 130px;
+  }
+}
+@media  screen and (min-width:1500px) and (max-width:1700px) {
+  /* ......navigation bar....... */
+  nav .nav_links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 53px 40px 0px 0px;
+  }
+  nav .nav_links ul li {
+    list-style-type: none;
+    margin: 0px 30px 0px 0px;
+  }
+  nav .nav_links ul li a {
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-right: 20px;
+  }
+  /* ..........hero.......... */
+  .hero {
+    height: fit-content;
+  }
+  .hero .hero_left {
+    width: 50%;
+    height: 100%;
+    padding: 130px 0px 0px 270px;
+  }
+  .hero .hero_left h4 {
+    font-size: 2.3rem;
+    margin: 7px 0px;
+    font-weight: 400;
+  }
+  .hero .hero_left h1 {
+    font-size: 3.7rem;
+    letter-spacing: 0.3rem;
+    margin: 20px 0px 45px 0px;
+  }
+  .hero .hero_left p {
+    font-size: 1rem;
+    color: rgb(73, 72, 72);
+    margin: 20px 0px 50px 0px;
+    line-height: 1.4rem;
+    width: 700px;
+  }
+  .hero .hero_left .h_button button {
+    padding: 12px 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    border: none;
+    margin-right: 22px;
+    cursor: pointer;
+  }
+  .hero .hero_left .h_button button .b_icon {
+    margin: 0px 10px 0px 0px;
+    font-size: 1rem;
+  }
+  .hero .hero_left .h_button button a {
+    color: white;
+  }
+  .hero .hero_right {
+    width: 50%;
+    height: 100%;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+  }
+  .hero .hero_right img {
+    width: 600px;
+    margin: 36px 0px 0px 130px;
+  }
+}
+@media screen and (min-width:1700px) {
+  /* ......navigation bar....... */
+  nav .nav_links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 55px 40px 0px 0px;
+  }
+  nav .nav_links ul li {
+    list-style-type: none;
+    margin: 0px 30px 0px 0px;
+  }
+
+  /* ..........hero.......... */
+  .hero {
+    height: 80vh;
+  }
+  .hero .hero_left {
+    width: 50%;
+    height: 100%;
+    padding: 130px 0px 0px 270px;
+  }
+  .hero .hero_left h4 {
+    font-size: 2.3rem;
+    margin: 7px 0px;
+    font-weight: 400;
+  }
+  .hero .hero_left h1 {
+    font-size: 3.7rem;
+    letter-spacing: 0.3rem;
+    margin: 20px 0px 45px 0px;
+  }
+  .hero .hero_left p {
+    font-size: 1rem;
+    color: rgb(73, 72, 72);
+    margin: 20px 0px 50px 0px;
+    line-height: 1.4rem;
+    width: 750px;
+  }
+  .hero .hero_left .h_button button {
+    padding: 12px 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    border: none;
+    margin-right: 22px;
+    cursor: pointer;
+  }
+  .hero .hero_left .h_button button .b_icon {
+    margin: 0px 10px 0px 0px;
+    font-size: 1rem;
+  }
+  .hero .hero_left .h_button button a {
+    color: white;
+  }
+  .hero .hero_right {
+    width: 50%;
+    height: 100%;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+  }
+  .hero .hero_right img {
+    width: 600px;
+    margin: 36px 0px 0px 250px;
+  }
+}
